@@ -1,0 +1,39 @@
+header h1{
+    background-color: lavender;
+    color: black;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    background-color: slateblue;
+}
+nav {
+    background-color: magenta;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+nav li{
+    display:inline-block;
+    padding: 5px 10px 5px 10px
+}
+nav li a{
+    text-decoration: none;
+}
+
+body{
+background-color: lightsteelblue;
+}
+article{
+    text-align: center;
+}
+
+
+
+
+footer {
+    text-align: center;
+    background-color: purple;
+    color: white;
+    padding: 20px 0;
+
+}
