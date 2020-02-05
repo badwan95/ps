@@ -11,5 +11,5 @@ if (age > 0 && age < 18) {
     message = 'Welcome Mr/Mrs ' + name + 'you are ' + age + ' years old!'
     alert(message);
 }
-alert(message)
+alert(message);
 document.write(message);
