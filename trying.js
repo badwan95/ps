@@ -1,6 +1,15 @@
-alert("Welcome to my javascript!");
-confirm("ammar made this :)");
-var answer= prompt("Whats your name?");
-alert("Nice to meet you " + answer + " ! Hope you are having a great day!");
+var name = prompt("Hello! What's your name?")
+var age = prompt("What's your age?")
+var message;
 
-document.write('<h3>' + 'greetings ' + answer + '</h3>');
+if (age >= 0 && age < 18) {
+    message = 'hello, ' + name + ' as a ' + age + ' years old, you are officially a child!'
+    alert(message);
+} else if (age >= 18) {
+    message = 'Hello,' + name + ' as a ' + age + ' years old,you are officially an adult!';
+} else {
+    message = 'Welcome Mr/Mrs ' + name + 'you are ' + age + ' years old!'
+    alert(message);
+}
+alert(message)
+document.write(message);
