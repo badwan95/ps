@@ -21,4 +21,3 @@ function msg(){
     return msg;
 }
 msg();
-document.write(msg);
